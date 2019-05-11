@@ -2,6 +2,16 @@
 
 Simple architecture Model / View / Controller prêt à l'emploi.
 
+## Configuration
+
+Dans `app/config/config.php`, remplacer la valeur de la constante `BASE_URL` par l'URL de base de votre projet.
+
+**Exemple :**
+
+```php
+	define('BASE_URL', 'http://localhost/mon_projet/public/');
+```
+
 ## Architecture dossier
 
 ```
