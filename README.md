@@ -7,25 +7,25 @@ Simple architecture Model / View / Controller prêt à l'emploi.
 ```
 .
 +-- app/
-|	+-- config/
-|	|	+-- config.php
-|	+-- controllers/
-|	|	+-- home.php
-|	+-- core/
-|	|	+-- App.php
-|	|	+-- Controller.php
-|	+-- models/
-|	|	+-- autoload.php
-|	+-- views/
-|	|	+-- home/
-|	|	|	+-- index.php
-|	+-- .htaccess
-|	+-- init.php
+	+-- config/
+		+-- config.php
+	+-- controllers/
+		+-- home.php
+	+-- core/
+		+-- App.php
+		+-- Controller.php
+	+-- models/
+		+-- autoload.php
+	+-- views/
+		+-- home/
+			+-- index.php
+	+-- .htaccess
+	+-- init.php
 +-- public/
-|   +-- css/
-|	|	+-- main.css
-|   +-- js/
-|	|	+-- main.js
-|	+-- .htaccess
-|   +-- index.php
+   	+-- css/
+   		+-- main.css
+   	+-- js/
+		+-- main.js
+	+-- .htaccess
+   	+-- index.php
 ```
