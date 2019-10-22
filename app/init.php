@@ -1,6 +1,5 @@
 <?php
-		
-	require_once 'models/autoload.php';
-	require_once 'core/App.php';
-	require_once 'core/Controller.php';
-
+	
+	require_once 'app/core/App.php';
+	require_once 'app/core/Controller.php';
+	require_once 'app/config/config.php';

@@ -9,8 +9,12 @@ Dans `app/config/config.php`, remplacer la valeur de la constante `BASE_URL` par
 **Exemple :**
 
 ```php
-define('BASE_URL', 'http://localhost/mon_projet/public/');
+define('BASE_URL', 'http://localhost:5000');
 ```
+
+## Utilisation
+
+Démarrer le projet avec la commande `php -S 0.0.0.0:5000` (port de votre choix) ou avec MAMP
 
 ## Architecture dossier
 
@@ -19,6 +23,7 @@ define('BASE_URL', 'http://localhost/mon_projet/public/');
 +-- app/
 	+-- config/
 		+-- config.php
+		+-- dbconfig.php.dist
 	+-- controllers/
 		+-- home.php
 	+-- core/
@@ -37,5 +42,5 @@ define('BASE_URL', 'http://localhost/mon_projet/public/');
    	+-- js/
 		+-- main.js
 	+-- .htaccess
-   	+-- index.php
++-- index.php
 ```

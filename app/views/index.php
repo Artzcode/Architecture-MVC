@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<base href="<?php echo BASE_URL; ?>" target="">
 		<title>Title</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	</head>
 	<body>
 
